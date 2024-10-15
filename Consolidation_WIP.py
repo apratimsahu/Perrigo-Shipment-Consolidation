@@ -561,8 +561,8 @@ def create_metric_box(label, value, color_start="#1f77b4", color_end="#0053a4"):
         text-align: center;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     ">
-        <h4 style="color: white; margin: 0; font-size: 16px; font-weight: 500;">{label}</h4>
-        <p style="color: white; font-size: 16px; font-weight: 600; margin: 5px 0 0 0;">{value}</p>
+        <h4 style="color: white; margin: 0; font-size: 22px; font-weight: 500;">{label}</h4>
+        <p style="color: white; font-size: 22px; font-weight: 600; margin: 5px 0 0 0;">{value}</p>
     </div>
     """
     return st.markdown(html, unsafe_allow_html=True)
