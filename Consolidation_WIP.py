@@ -724,7 +724,7 @@ with tab1:
             with col5:
                 create_metric_box("Average Utilization", f"{best_metrics['Average Utilization']:.1f}%")
             with col6:
-                create_metric_box("CO2 Emission (Kg)", f"{best_metrics['CO2 Emission']:,.1f}")
+                create_metric_box("CO2 Emission", f"{best_metrics['CO2 Emission']:,.1f}")
                 
     
             # Display charts for best results
